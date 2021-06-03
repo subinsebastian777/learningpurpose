@@ -1,0 +1,32 @@
+<!doctype html> 
+<html lang = "en">
+<head>
+<meta charset = "UTF-8">
+<title>Highlander</title>
+<link rel ="stylesheet" type = "text/css" href = "Highlander5.css" />
+<script src ="Highlander5.js"></script>
+</head>
+<body>
+<h1>Highlander: the car, not the movie</h1>
+<p>
+<label>Colours</label>
+<select onchange="changeColour(this.value)">
+	<option disabled>Choose a colour scheme</option>
+	<option value = "light">light theme</option>
+	<option value = "dark">dark theme</option>
+	<option selected value = "surprise">anyone's guess</option>
+</select>
+</p>
+<p>I've seen enough of that car</p> 
+<p id = "demo"></p>
+<p id = "showDate"></p>
+<button onclick="todaysDate()">What's the Date?</button> 
+<button onclick="myFunction()">Which car?</button>
+<div class = "listcontainer">
+	<p>Complex html can be embedded in javascript. When the Show List button is 
+	   clicked, this text will be replaced with an ordered list.</p> 
+</div>
+<button onclick="list()">Show List</button> 
+</body>
+</html>
+

@@ -1,0 +1,10 @@
+body {
+	background-color:magenta;
+}
+.listcontainer
+{
+	border:0.1em dashed blue;
+	width:35%;
+	margin:auto;
+	padding:1em;
+}
